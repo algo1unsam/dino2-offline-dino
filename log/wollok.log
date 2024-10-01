@@ -625,3 +625,102 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":243,"timestamp":"2024-10-01T04:08:48.918Z"}
 {"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/leon/Work/ALGO1/2024/Workspace/dino2","timestamp":"2024-10-01T04:08:48.974Z"}
 {"level":"info","message":"Removing diagnostics from /home/leon/Work/ALGO1/2024/Workspace/dino2/testExample.wtest","timestamp":"2024-10-01T04:08:49.020Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":175,"timestamp":"2024-10-01T22:34:11.857Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/UNSAM/Algoritmos/unsam-algoritmos-1-2024s2-dino2-dinoGame","timestamp":"2024-10-01T22:34:11.876Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":123,"timestamp":"2024-10-01T22:34:12.002Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":111,"timestamp":"2024-10-01T22:34:12.187Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":197,"timestamp":"2024-10-01T22:34:12.386Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":125,"timestamp":"2024-10-01T22:34:12.513Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":134,"timestamp":"2024-10-01T22:34:12.655Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":126,"timestamp":"2024-10-01T22:34:12.782Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":106,"timestamp":"2024-10-01T22:34:12.890Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":112,"timestamp":"2024-10-01T22:34:26.306Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":105,"timestamp":"2024-10-01T22:34:26.475Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":113,"timestamp":"2024-10-01T22:34:26.588Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":117,"timestamp":"2024-10-01T22:34:28.061Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":105,"timestamp":"2024-10-01T22:34:28.171Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":103,"timestamp":"2024-10-01T22:34:35.522Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":107,"timestamp":"2024-10-01T22:34:35.633Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":105,"timestamp":"2024-10-01T22:34:37.756Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:37.756Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:37.840Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":102,"timestamp":"2024-10-01T22:34:37.942Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:38.021Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:38.103Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:38.273Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:38.565Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":104,"timestamp":"2024-10-01T22:34:39.796Z"}
+{"level":"error","message":"✘ Completions for node failed: Error: [Assignment]{9ca61d} at dinoGame.wlk:59 exhausted all cases without a match [Assignment]{9ca61d} at dinoGame.wlk:59 exhausted all cases without a match","stack":"Error: [Assignment]{9ca61d} at dinoGame.wlk:59 exhausted all cases without a match\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:6067\n    at hh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:42)\n    at vh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:1004)\n    at F5n (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:1160)\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:6056\n    at hh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:42)\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:2700\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2288:3774\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:37:74872\n    at Fe (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:8527)","timestamp":"2024-10-01T22:34:39.901Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:40.245Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:40.322Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":130,"timestamp":"2024-10-01T22:34:40.452Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:40.453Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":116,"timestamp":"2024-10-01T22:34:40.569Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":122,"timestamp":"2024-10-01T22:34:40.691Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":142,"timestamp":"2024-10-01T22:34:41.546Z"}
+{"level":"error","message":"✘ Completions for node failed: Error: [Send]{a50c17} at dinoGame.wlk:59 exhausted all cases without a match [Send]{a50c17} at dinoGame.wlk:59 exhausted all cases without a match","stack":"Error: [Send]{a50c17} at dinoGame.wlk:59 exhausted all cases without a match\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:6067\n    at hh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:42)\n    at vh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:1004)\n    at F5n (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:1160)\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:6056\n    at hh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:42)\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:2700\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2288:3774\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:37:74872\n    at Fe (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:8527)","timestamp":"2024-10-01T22:34:44.203Z"}
+{"level":"error","message":"✘ Completions for node failed: Error: [Assignment]{7ee115} at dinoGame.wlk:59 exhausted all cases without a match [Assignment]{7ee115} at dinoGame.wlk:59 exhausted all cases without a match","stack":"Error: [Assignment]{7ee115} at dinoGame.wlk:59 exhausted all cases without a match\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:6067\n    at hh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:42)\n    at vh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:1004)\n    at hh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:456)\n    at vh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:1004)\n    at F5n (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:1160)\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:6056\n    at hh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:42)\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:2700\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2288:3774","timestamp":"2024-10-01T22:34:44.204Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":107,"timestamp":"2024-10-01T22:34:44.315Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:44.399Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:44.481Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:44.569Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:44.736Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:44.915Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:50.780Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:50.865Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:51.036Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":102,"timestamp":"2024-10-01T22:34:51.330Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:51.423Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:53.315Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:53.399Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":102,"timestamp":"2024-10-01T22:34:53.502Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:53.593Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":106,"timestamp":"2024-10-01T22:34:53.792Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:53.793Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:53.867Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:54.056Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:54.149Z"}
+{"level":"error","message":"✘ Completions for node failed: Error: [Send]{8c8496} at dinoGame.wlk:66 exhausted all cases without a match [Send]{8c8496} at dinoGame.wlk:66 exhausted all cases without a match","stack":"Error: [Send]{8c8496} at dinoGame.wlk:66 exhausted all cases without a match\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:6067\n    at hh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:42)\n    at vh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:1004)\n    at F5n (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:1160)\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:6056\n    at hh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:42)\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:2700\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2288:3774\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:37:74872\n    at Fe (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:8527)","timestamp":"2024-10-01T22:34:55.088Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":153,"timestamp":"2024-10-01T22:34:55.334Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:55.334Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:55.413Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":101,"timestamp":"2024-10-01T22:34:55.599Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:55.600Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:55.672Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":101,"timestamp":"2024-10-01T22:34:55.773Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:55.774Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:34:56.521Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":104,"timestamp":"2024-10-01T22:35:06.811Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:07.571Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":116,"timestamp":"2024-10-01T22:35:07.977Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":102,"timestamp":"2024-10-01T22:35:08.167Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":104,"timestamp":"2024-10-01T22:35:08.348Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":110,"timestamp":"2024-10-01T22:35:09.023Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:09.024Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:11.218Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:11.363Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:11.551Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:11.738Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":103,"timestamp":"2024-10-01T22:35:16.309Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":106,"timestamp":"2024-10-01T22:35:16.418Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":101,"timestamp":"2024-10-01T22:35:18.028Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":104,"timestamp":"2024-10-01T22:35:18.311Z"}
+{"level":"error","message":"✘ Completions for node failed: Error: [Return]{7d55bf} at dinoGame.wlk:-- exhausted all cases without a match [Return]{7d55bf} at dinoGame.wlk:-- exhausted all cases without a match","stack":"Error: [Return]{7d55bf} at dinoGame.wlk:-- exhausted all cases without a match\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:6067\n    at hh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:42)\n    at vh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:1004)\n    at F5n (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:1160)\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:6056\n    at hh (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:42)\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2281:2700\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2288:3774\n    at c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:37:74872\n    at Fe (c:\\Users\\gazzty\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:8527)","timestamp":"2024-10-01T22:35:21.374Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:21.568Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:21.745Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:21.828Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:21.998Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":104,"timestamp":"2024-10-01T22:35:22.402Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:22.493Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:22.580Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":125,"timestamp":"2024-10-01T22:35:22.706Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:22.797Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":121,"timestamp":"2024-10-01T22:35:23.015Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:23.015Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":140,"timestamp":"2024-10-01T22:35:23.156Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-10-01T22:35:23.156Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":101,"timestamp":"2024-10-01T22:35:23.336Z"}
+{"exitCode":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"level":"info","message":"👾 Game executed mainExample.DinoGame on D:\\UNSAM\\Algoritmos\\unsam-algoritmos-1-2024s2-dino2-dinoGame","timeElapsed":440,"timestamp":"2024-10-01T22:36:28.793Z"}
+{"error":["Error: Could not resolve reference to DinoGame","  at Environment.getNodeByFQN (C:\\Users\\gazzty\\AppData\\Roaming\\npm\\node_modules\\wollok-ts-cli\\node_modules\\wollok-ts\\dist\\model.js:705:19)","  at Command.default_1 (C:\\Users\\gazzty\\AppData\\Roaming\\npm\\node_modules\\wollok-ts-cli\\build\\src\\commands\\run.js:71:44)","  at async Command.parseAsync (C:\\Users\\gazzty\\AppData\\Roaming\\npm\\node_modules\\wollok-ts-cli\\node_modules\\commander\\lib\\command.js:936:5"],"level":"info","message":"👾 Game executed DinoGame on D:\\UNSAM\\Algoritmos\\unsam-algoritmos-1-2024s2-dino2-dinoGame","ok":false,"timeElapsed":391,"timestamp":"2024-10-01T22:36:45.344Z"}
+{"exitCode":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"level":"info","message":"👾 Game executed mainExample.DinoGame on D:\\UNSAM\\Algoritmos\\unsam-algoritmos-1-2024s2-dino2-dinoGame","timeElapsed":587,"timestamp":"2024-10-01T22:36:58.899Z"}
+{"exitCode":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"level":"info","message":"👾 Game executed mainExample.DinoGame on D:\\UNSAM\\Algoritmos\\unsam-algoritmos-1-2024s2-dino2-dinoGame","timeElapsed":421,"timestamp":"2024-10-01T22:37:05.702Z"}
