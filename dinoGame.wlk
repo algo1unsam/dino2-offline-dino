@@ -57,7 +57,7 @@ object reloj {
 	method position() = game.at(1, game.height()-1)
 	
 	method pasarTiempo() {
-		// Change this Gus
+		// Change gus
         tiempo = tiempo + 1
 	}
 	method iniciar(){
