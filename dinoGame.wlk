@@ -87,10 +87,11 @@ object cactus {
 		}
 	
 	method chocar(){
-		dino.morir()
+		// dino.morir()
+		self.detener()
 	}
     method detener(){
-		//COMPLETAR
+		
 	}
 }
 
@@ -106,16 +107,19 @@ object dino {
 	var property position = game.at(1,suelo.position().y())
 	
 	method image() = "dino.png"
-	
+
+	method estaEnPiso() = position.y() == suelo.position().y()
+
 	method saltar(){
-		self.subir()
-		game.schedule(reloj.tiempo() + 100, {self.subir()})
-		game.schedule(reloj.tiempo() + 200, {self.bajar()})
-		game.schedule(reloj.tiempo() + 300, {self.bajar()})
+		if (self.estaEnPiso()) {
+			self.subir()
+			game.schedule(reloj.tiempo() + 150, {self.bajar()})
+			game.schedule(reloj.tiempo() + 300, {self.bajar()})
+		}
 	}
 	
 	method subir(){
-		position = position.up(1)
+		position = position.up(2)
 	}
 	
 	method bajar(){
