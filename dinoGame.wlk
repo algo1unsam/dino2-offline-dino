@@ -108,8 +108,8 @@ object dino {
 	method saltar(){
 		self.subir()
 		game.schedule(reloj.tiempo() + 100, {self.subir()})
-		game.schedule(reloj.tiempo() + 150, {self.bajar()})
-		game.schedule(reloj.tiempo() + 250, {self.bajar()})
+		game.schedule(reloj.tiempo() + 200, {self.bajar()})
+		game.schedule(reloj.tiempo() + 300, {self.bajar()})
 	}
 	
 	method subir(){
