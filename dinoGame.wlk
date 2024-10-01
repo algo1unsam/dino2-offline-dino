@@ -5,7 +5,7 @@ const velocidad = 250
 object juego{
 
 	method configurar(){
-		game.width(12)
+		game.width(18)
 		game.height(8)
 		game.title("Dino Game")
 		game.boardGround("fondo.png")
@@ -73,7 +73,7 @@ object cactus {
 	var property position = self.posicionInicial()
 
 	method image() = "cactus.png"
-	method posicionInicial() = game.at(game.width()-1,suelo.position().y())
+	method posicionInicial() = game.at(11,suelo.position().y())
 
 	method iniciar(){
 		position = self.posicionInicial()
@@ -81,8 +81,10 @@ object cactus {
 	}
 	
 	method mover(){
-		//COMPLETAR
-	}
+    	position = position.left(1)
+		if (position.x() < 0)
+			position = game.at(11,suelo.position().y())	
+		}
 	
 	method chocar(){
 		//COMPLETAR
