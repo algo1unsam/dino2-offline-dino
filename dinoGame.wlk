@@ -31,7 +31,8 @@ object juego{
 			dino.saltar()
 		else {
 			game.removeVisual(gameOver)
-			self.iniciar()
+			//self.iniciar()
+			reloj.detener()
 		}
 		
 	}
@@ -87,7 +88,7 @@ object cactus {
 		}
 	
 	method chocar(){
-		//COMPLETAR
+		dino.morir()
 	}
     method detener(){
 		//COMPLETAR
