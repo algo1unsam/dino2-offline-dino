@@ -14,10 +14,11 @@ object juego{
 		game.addVisual(dino)
 		game.addVisual(reloj)
 	
+        keyboard.s().onPressDo{reloj.detener()}
 		keyboard.space().onPressDo{ self.jugar()}
 		game.onCollideDo(dino,{ obstaculo => obstaculo.chocar()})
 		
-	} 
+	}
 	
 	method iniciar(){
 		dino.iniciar()
@@ -56,14 +57,15 @@ object reloj {
 	method position() = game.at(1, game.height()-1)
 	
 	method pasarTiempo() {
-		//COMPLETAR
+		// Change gus
+        tiempo = tiempo + 1
 	}
 	method iniciar(){
 		tiempo = 0
 		game.onTick(100,"tiempo",{self.pasarTiempo()})
 	}
 	method detener(){
-		//COMPLETAR
+		game.removeTickEvent("tiempo")
 	}
 }
 
