@@ -5,7 +5,7 @@ const velocidad = 250
 object juego{
 
 	method configurar(){
-		game.width(12)
+		game.width(18)
 		game.height(8)
 		game.title("Dino Game")
 		game.boardGround("fondo.png")
@@ -18,7 +18,7 @@ object juego{
 		keyboard.space().onPressDo{ self.jugar()}
 		game.onCollideDo(dino,{ obstaculo => obstaculo.chocar()})
 		
-	} 
+	}
 	
 	method iniciar(){
 		dino.iniciar()
@@ -72,7 +72,7 @@ object cactus {
 	var property position = self.posicionInicial()
 
 	method image() = "cactus.png"
-	method posicionInicial() = game.at(game.width()-1,suelo.position().y())
+	method posicionInicial() = game.at(11,suelo.position().y())
 
 	method iniciar(){
 		position = self.posicionInicial()
@@ -80,8 +80,10 @@ object cactus {
 	}
 	
 	method mover(){
-		//COMPLETAR
-	}
+    	position = position.left(1)
+		if (position.x() < 0)
+			position = game.at(11,suelo.position().y())	
+		}
 	
 	method chocar(){
 		//COMPLETAR
@@ -105,7 +107,10 @@ object dino {
 	method image() = "dino.png"
 	
 	method saltar(){
-		//COMPLETAR
+		self.subir()
+		game.schedule(reloj.tiempo() + 100, {self.subir()})
+		game.schedule(reloj.tiempo() + 200, {self.bajar()})
+		game.schedule(reloj.tiempo() + 300, {self.bajar()})
 	}
 	
 	method subir(){
