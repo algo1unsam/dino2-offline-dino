@@ -58,8 +58,7 @@ object reloj {
 	method position() = game.at(1, game.height()-1)
 	
 	method pasarTiempo() {
-		// Change gus
-        tiempo = tiempo + 1
+		tiempo = tiempo + 1
 	}
 	method iniciar(){
 		tiempo = 0
@@ -111,8 +110,8 @@ object dino {
 	method saltar(){
 		self.subir()
 		game.schedule(reloj.tiempo() + 100, {self.subir()})
-		game.schedule(reloj.tiempo() + 150, {self.bajar()})
-		game.schedule(reloj.tiempo() + 250, {self.bajar()})
+		game.schedule(reloj.tiempo() + 200, {self.bajar()})
+		game.schedule(reloj.tiempo() + 300, {self.bajar()})
 	}
 	
 	method subir(){
