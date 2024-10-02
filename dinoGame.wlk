@@ -1,11 +1,10 @@
 import wollok.game.*
 
-const velocidad = 250
 
 object juego{
 
 	method configurar(){
-		game.width(12)
+		game.width(18)
 		game.height(8)
 		game.title("Dino Game")
 		game.boardGround("fondo.png")
@@ -16,8 +15,8 @@ object juego{
 	
 		keyboard.space().onPressDo{ self.jugar()}
 		game.onCollideDo(dino,{ obstaculo => obstaculo.chocar()})
-		
-	} 
+	
+	}
 	
 	method iniciar(){
 		dino.iniciar()
@@ -37,9 +36,9 @@ object juego{
 	
 	method terminar(){
 		game.addVisual(gameOver)
+        reloj.tiempo(0)
 		cactus.detener()
 		reloj.detener()
-		dino.morir()
 	}
 	
 }
@@ -56,37 +55,45 @@ object reloj {
 	method position() = game.at(1, game.height()-1)
 	
 	method pasarTiempo() {
-		//COMPLETAR
+		tiempo = tiempo + 1
 	}
 	method iniciar(){
 		tiempo = 0
 		game.onTick(100,"tiempo",{self.pasarTiempo()})
 	}
 	method detener(){
-		//COMPLETAR
+		game.removeTickEvent("tiempo")
 	}
 }
 
 object cactus {
 	var property position = self.posicionInicial()
+	var property velocidad = 210
 
 	method image() = "cactus.png"
-	method posicionInicial() = game.at(game.width()-1,suelo.position().y())
+	method posicionInicial() = game.at(11,suelo.position().y())
 
 	method iniciar(){
 		position = self.posicionInicial()
 		game.onTick(velocidad,"moverCactus",{self.mover()})
 	}
-	
-	method mover(){
-		//COMPLETAR
+
+	method aumentoVelocidad() {
+		if (velocidad != 10) {velocidad = velocidad - 10}
 	}
+
+	method mover(){
+    	position = position.left(1)
+		if (position.x() < 0)
+			position = game.at(11,suelo.position().y())	
+		}
 	
 	method chocar(){
-		//COMPLETAR
+		dino.morir()
+		self.detener()
 	}
     method detener(){
-		//COMPLETAR
+		game.removeTickEvent("moverCactus")
 	}
 }
 
@@ -102,9 +109,16 @@ object dino {
 	var property position = game.at(1,suelo.position().y())
 	
 	method image() = "dino.png"
-	
+
+	method estaEnPiso() = position.y() == suelo.position().y()
+
 	method saltar(){
-		//COMPLETAR
+		if (self.estaEnPiso()) {
+			self.subir()
+			game.schedule(reloj.tiempo() + 200, {self.subir()})
+			game.schedule(reloj.tiempo() + 400, {self.bajar()})
+			game.schedule(reloj.tiempo() + 600, {self.bajar()})
+		}
 	}
 	
 	method subir(){
@@ -116,6 +130,7 @@ object dino {
 	}
 	method morir(){
 		game.say(self,"¡Auch!")
+        juego.terminar()
 		vivo = false
 	}
 	method iniciar() {
