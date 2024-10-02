@@ -1,6 +1,5 @@
 import wollok.game.*
 
-const velocidad = 250
 
 object juego{
 
@@ -69,6 +68,7 @@ object reloj {
 
 object cactus {
 	var property position = self.posicionInicial()
+	var property velocidad = 210
 
 	method image() = "cactus.png"
 	method posicionInicial() = game.at(11,suelo.position().y())
@@ -77,7 +77,11 @@ object cactus {
 		position = self.posicionInicial()
 		game.onTick(velocidad,"moverCactus",{self.mover()})
 	}
-	
+
+	method aumentoVelocidad() {
+		if (velocidad != 10) {velocidad = velocidad - 10}
+	}
+
 	method mover(){
     	position = position.left(1)
 		if (position.x() < 0)
@@ -85,11 +89,10 @@ object cactus {
 		}
 	
 	method chocar(){
-		// dino.morir()
+		dino.morir()
 		self.detener()
 	}
     method detener(){
-		
 		game.removeTickEvent("moverCactus")
 	}
 }
@@ -112,13 +115,14 @@ object dino {
 	method saltar(){
 		if (self.estaEnPiso()) {
 			self.subir()
-			game.schedule(reloj.tiempo() + 150, {self.bajar()})
-			game.schedule(reloj.tiempo() + 300, {self.bajar()})
+			game.schedule(reloj.tiempo() + 200, {self.subir()})
+			game.schedule(reloj.tiempo() + 400, {self.bajar()})
+			game.schedule(reloj.tiempo() + 600, {self.bajar()})
 		}
 	}
 	
 	method subir(){
-		position = position.up(2)
+		position = position.up(1)
 	}
 	
 	method bajar(){
